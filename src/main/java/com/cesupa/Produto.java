@@ -6,7 +6,10 @@ public class Produto {
   private double preco;
   private int quantidade;
 
-  
+  public Produto(){
+
+  }
+
   public Produto(String nome, String descrição, double preco, int quantidade) {
     this.nome = nome;
     this.description = descrição;
